@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Luis Padron" => "heyluispadron@gmail.com" }
   s.social_media_url   = "https://luispadron.com"
+  s.swift_versions = ['5.0', '5.1', '5.2']
 
   s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "10.0"
